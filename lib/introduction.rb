@@ -9,11 +9,11 @@ end
 
 introduction("Tisdale")
 
-def introduction_with_language("Tisdale", "Ruby")
+def introduction_with_language(name, language)
   "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-introduction_with_language
+introduction_with_language("Tisdale", "Ruby")
 
 language = "Ruby"
 def introduction_with_language_optional(name, language)
